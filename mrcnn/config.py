@@ -137,7 +137,7 @@ class Config(object):
     IMAGE_CHANNEL_COUNT = 1
 
     # Image mean (RGB)
-	MEAN_PIXEL = np.array([117.4])
+    MEAN_PIXEL = np.array([117.4])
     #MEAN_PIXEL = np.array([123.7, 116.8, 103.9])
 
     # Number of ROIs per image to feed to classifier/mask heads
